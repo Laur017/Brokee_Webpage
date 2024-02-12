@@ -70,3 +70,82 @@
   left: 0;
 }
 
+/*
+  Available Tests Page
+*/
+
+.tests-div{
+  width: 80%;
+}
+
+.data-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.card-tests{
+  width: 25rem;
+  border: 1px solid #009c78;
+  padding: 1rem;
+  border-radius: 1rem;
+  flex-wrap: wrap;
+
+  img{
+    width: 5rem;
+  }
+
+  h5{
+    font-weight: 650;
+    text-align: left;
+    letter-spacing: 1px;
+  }
+}
+
+.diff{
+  text-align: left;
+  color: white;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+.green{
+  background-color: #009c78;
+  width: 4rem;
+}
+
+.orange{
+  background-color: orange;
+  width: 5rem;
+}
+
+.red{
+  background-color: red;
+  width: 3rem;
+}
+
+.roles-div{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.yellow{
+  background-color: #009c78;
+  border-radius: 1rem;
+  color: white;
+  padding: 0.1rem 0.5rem;
+}
+
+.gree{
+  background-color: yellow;
+  color: black;
+  border-radius: 1rem;
+  padding: 0.1rem 0.5rem;
+}
+
+.roles-div-o{
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
