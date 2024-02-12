@@ -10,4 +10,63 @@
 .app-div{
   width: 100%;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5rem;
 }
+
+/*
+  Feature Page
+*/
+
+.div-features{
+  background-color: #009c78;
+  border-radius: 2rem;
+  width: 50rem;
+
+  img{
+    width: 15rem;
+  }
+}
+
+.text-features{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  a{
+    all: unset;
+    width: 50%;
+    background-color: #009c78;
+    padding: 0.5rem 0;
+    color: #fff;
+    letter-spacing: 2px;
+    border-radius: 1rem;
+    cursor: pointer;
+    border: 1px solid #009c78;
+    transition: all 0.3s ease-in;
+  }
+
+  a:hover{
+    background-color: #fff;
+    color: #009c78;
+  }
+}
+
+.off-div{
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  left: -2rem;
+  position: relative;
+  border-radius: 2rem;
+  gap: 1rem;
+  border: 1px solid #009c78;
+  transition: all 0.3s ease-in;
+}
+
+.off-div:hover{
+  left: 0;
+}
+
