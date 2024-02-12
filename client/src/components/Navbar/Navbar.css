@@ -1,0 +1,19 @@
+nav{
+    display: flex;
+    gap: 5rem;
+
+    img{
+        width: 10rem;
+        height: 2.5rem;
+        cursor: pointer;
+    }
+
+    p{
+        cursor: pointer;
+        font-weight: 500;
+    }
+
+    p:hover{
+        color: #009c78;
+    }
+}
