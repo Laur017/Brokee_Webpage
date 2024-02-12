@@ -98,7 +98,6 @@ export default function AvailableTests() {
 
   return (
     <div className="tests-div">
-      <h2>Available tests</h2>
       <div className="data-div">
         {Data}
       </div>
