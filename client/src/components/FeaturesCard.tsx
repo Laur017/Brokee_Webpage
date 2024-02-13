@@ -20,7 +20,7 @@ export default function FeaturesCard() {
           </div>
           {more &&
             <div className="text-features backface">
-                <h3>Introducing Pricing Plans and Free Trial for DevOps Tests</h3>
+                <h2>Introducing Pricing Plans and Free Trial for DevOps Tests</h2>
                 <p>We're starting 2024 off with a bang! We are happy to announce our biggest product update yet: the release of payment plans with a free trial.
                 <br />
                 To make this a reality, we:</p>
